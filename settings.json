@@ -1,0 +1,26 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "editor.fontSize": 14,
+    "editor.fontFamily": "Jetbrains Mono, monospace",
+    "editor.formatOnSave": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.tabSize": 4,
+    "editor.inlineSuggest.enabled": true,
+    "editor.detectIndentation": false,
+    "rust-client.rustupPath": "$HOME/.cargo/bin/rustup",
+    "editor.minimap.enabled": true,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "terminal.integrated.inheritEnv": false,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Hackpot Garden Dark",
+    "files.exclude": {
+        "**/.git": false
+    },
+    "[svelte]": {
+        "editor.defaultFormatter": "svelte.svelte-vscode"
+    },
+    "svelte.enable-ts-plugin": true,
+    "rust-client.channel": "stable",
+    "python.formatting.provider": "none",
+}
