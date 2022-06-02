@@ -5,6 +5,7 @@ tap "yt-dlp/taps"
 brew "pyenv"
 brew "pyenv-virtualenv"
 brew "yt-dlp/taps/yt-dlp"
+brew "ffmpeg"
 
 # cask
 cask "iterm2"

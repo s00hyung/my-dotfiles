@@ -11,6 +11,7 @@ eval "$(pyenv virtualenv-init -)"
 #########################################################################
 
 #################### yt-dlp #############################################
+alias yt-list="yt-dlp -F"
 alias yt-mp3="yt-dlp -x --audio-format mp3 --audio-quality 0"
-alias yt-mp4="yt-dlp -f 'bv*[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b'"
+alias yt-mp4="yt-dlp -f 'bv[ext=mp4]+ba[ext=m4a]/b[ext=mp4] / bv*+ba/b'"
 #########################################################################
