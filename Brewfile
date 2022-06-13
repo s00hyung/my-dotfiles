@@ -1,16 +1,16 @@
 # tap
 tap "yt-dlp/taps"
 
-# brew
-######################## python dev env 
+# python dev 
 brew "pyenv"
 brew "pyenv-virtualenv"
-######################## yt-dlp env
+
+# yt-dlp
 brew "yt-dlp/taps/yt-dlp"
 brew "ffmpeg"
-######################## svelte dev env
+
+# svelte de
 brew "node"
-########################
 
 # cask
 cask "iterm2"
