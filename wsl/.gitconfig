@@ -1,0 +1,5 @@
+[user]
+	name = soohl
+	email = soohl@kakao.com
+[credential]
+	helper = /mnt/c/Program\\ Files/Git/mingw64/bin/git-credential-manager-core.exe
