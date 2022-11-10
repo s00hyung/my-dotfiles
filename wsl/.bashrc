@@ -131,5 +131,8 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 
-# Required to use CUDA in recent Ubuntu
+# For Running CUDA in WSL
 export LD_LIBRARY_PATH=/usr/lib/wsl/lib:$LD_LIBRARY_PATH
+
+# Clear Pycache
+alias pyclear='find . | grep -E "(/__pycache__$|\.pyc$|\.pyo$)" | xargs rm -rf'
